@@ -1,0 +1,21 @@
+[file_dialog]
+width = 500
+height = 600
+
+[viewer]
+width = 600
+height = 750
+zoom = -0.07
+offset_x = 0.0
+offset_y = 0.0
+x_rotation = 0
+y_rotation = 0
+z_rotation = 0
+default_hue = 33
+
+
+# base_triangle_hls = [210/255, 60/255, 60/255]
+
+[viewer.canvas]
+width = 450
+height = 450

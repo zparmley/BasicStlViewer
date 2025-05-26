@@ -1,0 +1,20 @@
+[project]
+name = "stlviewer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Zachary Parmley", email = "zachary.parmley@local" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dearpygui>=2.0.0",
+    "dpgcontainers>=0.1.1",
+    "dpgmagictag>=0.1.1",
+    "trimesh[easy]>=4.6.8",
+    "typer>=0.15.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
