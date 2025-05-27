@@ -31,8 +31,6 @@ from dpgcontainers.containers import TableColumn
 from dpgmagictag.magictag import MagicTag
 from stlviewer.config import Config
 
-import mlx.core as mx
-
 
 config = Config.factory('gui').viewer
 
